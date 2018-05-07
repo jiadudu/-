@@ -1,0 +1,279 @@
+
+
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url("../images1/header.jpg");
+    height: 562px;
+    background-position-y: -150px;  
+    background-position-x: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 72px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: white;
+    font-size: 14px;
+    
+}
+
+nav > ul > li {
+    padding: 30px 30px;
+    display: table-cell;
+    vertical-align: middle;
+    border-right: 1px solid white;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+nav > ul >li:last-child {
+    border-right: none;
+}
+
+header section {
+    margin-top: 172px;
+}
+
+header h1 {
+   height:75px;
+   margin-top:0;
+   padding-top:0;
+   color: gainsboro;
+   font-size: 80px;
+   text-align: center;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+   margin-bottom: 20px;
+
+}
+
+header p {
+    margin: 0;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+main > div{
+    background-color:  #f2f2f2;
+}
+
+.main-first {
+    margin: 0 auto;
+    position: center;
+    width: 1200px;
+    padding-bottom: 30px;
+}
+
+.main-first h2 {
+   margin: 0;
+   padding-top: 50px;
+   text-align: center;
+   color: #6e6e6e;
+   font-size: 42px;
+}
+
+.main-first p {
+  background: center;
+  margin: 0 auto;
+  
+  text-align: center;
+  line-height: 2;
+}
+
+.main-first span {
+    color:#80ba8d;
+}
+
+hr {
+    margin-top:40px;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #e3e3e3;
+    width: 1200px;
+
+}
+
+.main-second {
+    width:1200px;
+    margin:0 auto;
+}
+
+.main-second ul {
+   padding-top:80px;
+   padding-left: 0;
+   display: flex;
+   flex-direction: row;
+   list-style-type: none;
+}
+.main-second ul li {
+    text-align: center;
+    padding-right: 64px;
+    
+}
+.main-second img {
+    text-align: center;
+    /* margin: 0 auto; */
+}
+
+.main-second h5 {
+    margin: 40px 0;
+    color: #d6d6d6;
+    font-size: 24px;
+}
+
+.main-second span {
+    margin: 0;
+    color: #787878;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.main-second ul li:last-child {
+    padding-right: 0;
+}
+
+.main-second button {
+    height: 54px;
+    background-color: #80ba8e;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 88px;
+    margin-top: 40px;
+    width: 155px;
+}
+.main-third {
+    width: 1200px;
+    margin: 0 auto;
+}
+.main-third ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 50px;
+}
+
+.top-ul li:first-child {
+    margin-right: 50px;
+}
+
+
+.bottom-ul li:first-child {
+    margin-right: 50px;
+}
+
+.main-third img {
+    width: 577px;
+    height: 202px;
+}
+
+.main-third h3{
+    text-align: center;
+    color: #6c6c6c;
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.main-third p {
+    text-align: center;
+    color: #a3a3a3;
+    size: 16px;
+}
+
+.main-fourth {
+    background-image: url("../images1/header.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: 0 -270px;
+    background-size: 100%;
+    
+}
+
+.main-fourth div{
+   background-color: rgba(0, 0, 0, 0.10);
+   
+}
+
+.main-fourth p{
+    font-size: 24px;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 0.65);
+    font-style: italic;
+    padding: 120px 200px;
+}
+
+footer {
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+}
+
+footer h2 {
+    text-align: center;
+    padding-top: 71px;
+    color:white;
+    font-size: 42px;
+    font-weight: 300;
+}
+
+footer p:first-child {
+    text-align: center;
+    color: #434343;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+footer div {
+    text-align: center;
+    
+}
+
+footer section {
+    margin-bottom: 91px;
+}
+
+footer a{
+    margin-right: 20px;
+}
+
+
+
+footer a:last-child{
+    margin-right: 0;
+}
+
+footer hr {
+    border-top: 1px solid #424242;
+    margin: 0;
+}
+
+footer p:last-child {
+    color:#2d2d2d;
+    height: 110px;  
+    margin: 0;
+    text-align: center;
+    line-height: 5;
+}
+
+footer p:last-child span {
+    color:#424242;
+}
